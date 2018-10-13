@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!----Delaney Barrow, 10/16/17----->
+        <title>Intro to Responsive Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            section {
+                border: solid black 1px;
+                text-align: center;
+                width: 100%;
+            }
+            .box {
+                background-color: lightblue;
+                width: 20%;
+                height: 170px;
+                margin: 1%;
+                display: inline-block;
+            }
+            #big {
+                display: block;
+            }
+            #small, #medium {
+                display: none;
+            }
+            
+            @media screen and (max-width: 1000px) and (min-width: 641px)
+            {
+                .box {
+                    width: 45%;
+                    background-color: darkcyan;
+                    border-radius: 50%;
+                }
+                #medium {
+                    display: block;
+                }
+                #small, #big {
+                    display: none;
+                }
+            }
+            
+            @media screen and (max-width: 640px)
+            {
+                .box {
+                    width: 90%;
+                    background-color: lightcoral;
+                }
+                #small {
+                    display: block;
+                }
+                #medium, #big {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section class="display-area">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </section>
+        
+        <section class="text-area">
+            <h1>Welcome to Media Querires!</h1>
+            <h2>The screen size is currently</h2>
+            <h2 id="big">greater than 1000px.</h2>
+            <h2 id="medium">between 640px and 1000px.</h2>
+            <h2 id="small">less than 640px.</h2>
+        </section>
+    </body>
+</html>

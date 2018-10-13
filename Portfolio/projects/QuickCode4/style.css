@@ -1,0 +1,96 @@
+/*---------------------------------*/
+/*BASIC SETUP*/
+/*---------------------------------*/
+.clearfix {
+    clear: both;
+}
+body {
+    padding-top: 2%;
+}
+
+/*---------------------------------*/
+/*MAJOR COMPONENTS*/
+/*---------------------------------*/
+section {
+    font-family: serif;
+}
+.left-side {
+    float: left;
+    width: 48%;
+}
+.right-side {
+    float: right;
+    width: 40%; 
+    margin: 5%;
+    padding-left: 1%;
+}
+.upper-box {
+    color: lightgrey;
+    background-color: blue;
+}
+.lower-box {
+    color: blue;
+    background-color: lightgrey;
+}
+.upper-box, 
+.lower-box {
+    padding: 4%;
+    margin-top: 3%;
+    padding-left: 2%;
+    margin-bottom: 0;
+}
+
+/*---------------------------------*/
+/*NAVBAR*/
+/*---------------------------------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 26px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: black;
+    background-color: red;  
+    font-weight: 900;
+}
+li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 150px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 0;
+    font-weight: bolder;
+    font-family: monospace;
+}
+li a:hover {
+    color: red;
+    background-color: black;
+}
+
+/*---------------------------------*/
+/*FOOTER COMPONENTS*/
+/*---------------------------------*/
+footer {
+    background-color: black;
+    height: 125px;
+    color: lightgrey;
+    text-align: center;
+    margin-top: 2%;
+}
+.footer-boxes {
+    float: left;
+    width: 50%
+}
+p a {
+    color: red;
+}

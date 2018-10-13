@@ -1,0 +1,237 @@
+/*------------------------------------*/
+/*BASIC SETUP*/
+/*------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+.clearfix {
+    clear: both;
+}
+body {
+    text-align: center;
+    background-color: #F6EDD3;
+}
+
+/*-----------------------------------*/
+/*IMAGES*/
+/*-----------------------------------*/
+.title,
+.image {
+    width: 50%;
+}
+.image {
+    position: relative;
+    margin-left: 150px;
+    margin-top: 20px; 
+    float: left;
+}
+img {
+    margin: 33px;
+}
+.title {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    float: none;
+}
+.title h1 {
+    font-size: 75px;
+}
+span {
+    position: absolute;
+    background-color: #7FADA9;
+    padding: 170px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 15px;
+    margin-left: 480px;
+}
+
+/*-----------------------------------*/
+/*NAV BAR*/
+/*-----------------------------------*/
+nav {
+    position: fixed;
+    top: 3.5px;
+    left: 0;   
+    width: 100%;
+    height: 28px;
+    background-color: #F6EDD3;
+}
+nav ul {
+    margin: 0;
+    padding:0;
+    height: 100%;
+}
+nav li {
+    list-style: none;
+    float: left;
+    width: 20%; 
+    border-right: 1px solid #7FADA9;
+}
+nav a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #588E95;
+    font-weight: bold;
+}
+nav a:hover {
+    color: white;
+    background-color: #7FADA9;
+    transition: 400ms;
+}
+
+/*-----------------------------------*/
+/*MAJOR COMPONENTS*/
+/*-----------------------------------*/
+.left-side,
+.right-side {
+    float: left;
+    width: 48%;
+    margin: 20px;
+}
+.leftside {
+    padding: 20px;
+    border-radius: 10px;
+}
+.about p {
+    color: white;
+}
+.about {
+    background-color: #7FADA9; 
+    margin: 30px;
+    padding: 10px;
+}
+.vmap,
+.vp {
+    float: left;
+    width: 50%;
+}
+.wmap,
+.wp {
+    float: left;
+    width: 50%;
+}
+.wmap{
+    margin-bottom: 30px;
+}
+.wp {
+    margin-top: 30px;
+    height: 400px;
+}
+.vp {
+    margin-top: 25px;
+}
+h1 {
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif; 
+}
+p {
+    font-family: 'Crimson Text', serif;
+    color: #255896;
+    font-size: 20px;
+}
+.wts,
+.act,
+.rec,
+.cul {
+    background-color: #112844;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    height: 115px;
+}
+.rec {
+    margin-bottom: 20px;
+}
+.upper p,
+.vp p,
+.wp p {
+    background-color: #7FADA9;
+    color: white;
+    padding: 15px;
+}
+.upper a {
+    font-size: 17px;
+    color: #255896;
+}
+
+
+/*-------------------TABLE-------------------*/
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    float: right;
+    margin-top: 65px;
+}
+table, td {
+    border: 5px solid #96bfb6;
+}
+tr, td {
+    width: 5%;
+    padding: 4px;
+    font-weight: 900;
+}
+tr:nth-child(n+1) {
+    border-bottom: none;
+}
+thead {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+table h1 {
+    color: #496172;
+}
+th {
+    border: none;
+}
+/*--------------------LINKS----------------------*/
+a {
+    text-decoration: underline;
+    color: #365cff;
+}
+a:active {
+    color: orange;
+}
+a:hover {
+    color: #112844;
+}
+li {
+    list-style: none;
+}
+
+/*---------------------FOOTER------------------------*/
+footer {
+    background-color: #7FADA9;
+    height: 170px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+footer h2 {
+    background-color: #255896; 
+    width: 300px;
+    padding-top: 7px;
+    margin-left:  850px;
+}
+footer h3 {
+    color:
+}
+footer a {
+    color: #e2b41b;
+}
+footer a:hover,
+footer a:visited {
+    color: #255896;
+}
+footer a:active
+ {
+    color: #1f97b4;
+}
+.foot {
+    float: left;
+    width: 33%;
+}

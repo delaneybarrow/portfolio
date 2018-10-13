@@ -1,0 +1,163 @@
+/*------------------Main Section----------------*/
+body {
+    background-color: #fbfdff;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: auto;
+}
+h1 {
+    padding-top: 2%;
+}
+h1, h2, h3, p {
+    font-family: 'Raleway', sans-serif;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+/*---------------------Classes----------------------*/
+.centered-title h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 220%;
+}
+.bg {
+    background-image: url("../images/back.webp");
+    height: 100%; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title-main {
+    position: absolute;
+    left: 5%;
+    top: 7%;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.title-main h1 {
+    font-size: 350%;
+}
+.centered-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered-title h2 {
+    font-size: 500%;
+}
+.thumbnail {
+    transition: all .2s ease-in-out;
+}
+.thumbnail:hover {
+    transform: scale(0.95)
+}
+/*------------------------Icons----------------------*/
+a .ion-social-instagram,
+.ion-android-document,
+.ion-social-snapchat,
+.ion-social-facebook {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
+.mimg {
+    border-radius: 4px;
+    width: 45%;
+    height: auto;
+}
+i {
+    font-size: 1000%;
+}
+.foot i {
+    font-size: 350%;
+}
+.ion-social-facebook:hover {
+    color: blue;
+}
+.ion-social-instagram:hover {
+    color: #864bb2;  
+}
+.ion-android-document:hover {
+    color: gray;
+}
+.ion-social-snapchat:hover {
+    color: #efef1e;
+}
+.ion-play {
+    font-size: 300%;
+    color: black;
+}
+/*-----------------------Parallax-------------------------*/
+.parallax2 {
+    background-image: url(../images/dog.webp);
+    height: 320px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    background-image: url(../../Documents/Portfolio/images/sky.webp);
+    height: 315px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-----------------------Front Page--------------------------*/
+\@import url("https://wallpapercave.com/wp/Z8gw35h.jpg");
+
+section::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 80%;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+.demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 175%;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+#section01 a {
+  padding-top: 60px;
+}
+#section01 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 7px solid white;
+  border-bottom: 7px solid white;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}

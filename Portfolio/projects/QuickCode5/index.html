@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!---Delaney Barrow, Quick Code 5, 10/20/17-->
+        <title>Quick Code 5!</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <nav>
+            <ul class="topnav" id="myTopnav">
+                <li><a href="https://www.google.com/?safe=active&ssui=on" target="_blank">Google</a></li>
+                <li><a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" 
+                       onclick="responsiveNav()">&#9776;
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="top">
+            <div class="image">
+                <img src="http://www.publicdomainpictures.net/pictures/180000/velka/clydesdale-horses-grazing.jpg" width="100%" height="auto" alt="horses" title="horses">
+            </div>
+            <div class="text">
+                <p>Horses are such amazing animals. Lorem ipsum dolor sit amet, Consectetur adipiscing elit. Mauris ac ullamcorper turpis. Nullam consequat suscipit hendrerit. Aliquam vitae leo massa nam non dolos nulla. Sed faucibus iaculis nibh. Mae cena s falu Cibus est massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam eleifend magna sed maximus tempor. Ut sodales erat vitae elit viverra posuere.</p>
+            </div>
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <div class="bottom">
+            <h2>Would you like to own a horse?</h2>
+            <p>Lorem ipsum dolor sit amet, Consectetur adipiscing elit. Mauris ac ullamcorper turpis. Nullam consequat suscipit hendrerit. Aliquam vitae leo massa. Nam non dolor nulla. Sed faucibus iaculis nibh. Maecenas faucibus est massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam eleifend magna sed maximus tempor. Ut sodales erat Vitae elit viverra posuere.</p>
+            <p>Email us at <a href="mailto:horses@horses.horse">horses@horses.horse</a>
+            </p>
+        </div>
+        
+        <script>
+            function responsiveNav() {
+                var x = document.getElementById("myTopnav") ;
+                if (x.className ==="topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav"
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+/*Default sizes for extra small screens
+*(phones less than 768px)
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: lightblue;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+}
+ul.topnav {
+    background-color: white;
+    list-style-type: none;
+    overflow: hidden;
+}
+ul.topnav li {
+    float: left;
+}
+ul.topnav li a {
+    display: none;
+    color: maroon;
+    text-decoration: none;
+    padding: 4px 0;
+    width: 150px;
+    transition: 0.3s;
+}
+ul.topnav li a:hover {
+    background-color: maroon;
+    color: white;
+}
+ul.topnav li.icon {
+    float: right;
+}
+ul.topnav li.icon a {
+    display: inline-block;
+    width: 50px;
+}
+ul.topnav.responsive {
+    padding-top: 30px;
+    position: relative;
+}
+ul.topnav.responsive li {
+    float: none;
+    display: inline;
+}
+ul.topnav.responsive li a {
+    display: block;
+    width: 100%;
+}
+ul.topnav.responsive li.icon {   
+    
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+}
+
+/*Main Section*/
+.top, .bottom {
+    background-color: lightcoral;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: left;
+    overflow: auto;
+}
+.top {
+    margin-top: 37px;
+}
+p, h2 {
+    padding: 10px
+}
+
+
+/*Medium screens (monitors, greater than 991px)*/
+@media screen and (min-width: 991px)
+{
+    .top {
+        border-radius: 10px;
+    }
+    .image {
+        width: 60%;
+    }
+    .image, .text {
+        float: left;
+    }
+    .text {
+        width: 40%;
+    }
+    ul.topnav li a {
+        display: inline-block;
+    }
+    ul.topnav li.icon a {
+        display: none;
+    }
+}

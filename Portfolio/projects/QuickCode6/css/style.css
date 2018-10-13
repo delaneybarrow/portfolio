@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+.jumbotron {
+    color: white;
+    background-image: url("http://www.publicdomainpictures.net/pictures/110000/nahled/banana-slug.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    background-color: yellow;
+    color: black;
+}
+footer small {
+    color: gray;
+}
+.container.card {
+    background-color: black;
+}
+.col-lg.card {
+    background-color: cadetblue;
+    border-color: white;
+}
+
+
+/*large screens (monitors, greater than 1024px)*/
+@media screen and (min-width: 1024px)
+ {   
+    .parallax {
+        background-size: cover;
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
